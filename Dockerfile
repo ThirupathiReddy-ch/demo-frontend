@@ -1,5 +1,5 @@
 FROM node:latest
-MAINTAINER thirupathireddy
+MAINTAINER rajesh
 WORKDIR /app
 COPY . .
 EXPOSE 3000
