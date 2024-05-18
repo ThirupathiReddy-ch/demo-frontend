@@ -19,5 +19,5 @@ spec:
         image: 023068192663.dkr.ecr.ap-south-1.amazonaws.com/demo-production:tagVersion
         ports:
         - containerPort: 3000
-        imagePullSecrets:
-          - name: demo
+      imagePullSecrets:
+        - name: demo
